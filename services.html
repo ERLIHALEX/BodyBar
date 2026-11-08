@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Услуги и цены BODYBAR — LPG, массаж сферами, аппаратная эпиляция | Челябинск</title>
+  <meta name="description" content="Каталог услуг и цен студии BODYBAR в Челябинске (ул. Кирова, 94а, 2 этаж). Аппаратный массаж LPG, массаж сферами для лица (2 190 ₽) и тела, аппаратная эпиляция, абонементы.">
+  <meta name="theme-color" content="#101012">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="services">
+  <a class="skip-link" href="#main-content">Перейти к основному содержанию</a>
+
+  <!-- ШАПКА САЙТА -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="BODYBAR — на главную">
+        <img class="real-brand-logo" src="assets/bodybar-logo.png" alt="BodyBar">
+        <span class="brand-tag">BODY TRANSFORMATION</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">BODYBAR</a></li>
+          <li><a href="services.html" class="nav-link is-active" aria-current="page">Услуги и цены</a></li>
+          <li><a href="results.html" class="nav-link">Подобрать уход</a></li>
+          <li><a href="index.html#branches" class="nav-link">Адреса</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="branch-switcher-btn" data-open-branch-modal aria-label="Выбрать филиал сети">
+          <span class="branch-dot" aria-hidden="true"></span>
+          <span class="current-branch-label" data-current-branch-short>Кирова, 94а</span>
+        </button>
+        <a href="#booking" class="btn btn-primary btn-sm">Записаться</a>
+        <button
+          type="button"
+          class="menu-toggle"
+          id="menuToggle"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+          aria-label="Открыть меню"
+        >
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <div class="container mobile-menu-inner">
+        <div class="mobile-menu-top">
+          <span class="mobile-eyebrow">СЕТЬ СТУДИЙ АППАРАТНОГО МАССАЖА И ЭПИЛЯЦИИ</span>
+          <button type="button" class="branch-switcher-btn branch-switcher-mobile" data-open-branch-modal>
+            <span class="branch-dot" aria-hidden="true"></span>
+            <span>Филиал: <strong data-current-branch-name>Челябинск, ул. Кирова, 94а, 2 этаж</strong></span>
+          </button>
+        </div>
+
+        <nav aria-label="Мобильная навигация">
+          <ul class="mobile-nav-list">
+            <li><a href="index.html" class="mobile-nav-link">BODYBAR</a></li>
+            <li><a href="services.html" class="mobile-nav-link is-active">Услуги и цены</a></li>
+            <li><a href="results.html" class="mobile-nav-link">Подобрать уход</a></li>
+            <li><a href="index.html#branches" class="mobile-nav-link">Адреса филиалов</a></li>
+          </ul>
+        </nav>
+
+        <div class="mobile-menu-footer">
+          <a href="#booking" class="btn btn-primary btn-full">Записаться в студию</a>
+          <a href="https://vk.ru/bodybar_74" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-full">
+            Сообщество ВКонтакте
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ЗАГОЛОВОК КАТАЛОГА -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-top">
+          <span class="badge-fuchsia">Услуги и цены из меню BODYBAR</span>
+          <span class="badge-dark" data-current-branch-badge>Филиал: ул. Кирова, 94а, 2 этаж</span>
+        </div>
+        <h1 class="page-title">УСЛУГИ И ЦЕНЫ <span class="text-fuchsia">BODYBAR</span></h1>
+        <div class="fuchsia-accent-line" aria-hidden="true"></div>
+        <p class="page-lead">
+          В каталоге собраны разовые процедуры, комплексные программы и абонементы из предоставленного фирменного меню BODYBAR. Прайс может измениться, а доступность конкретной услуги зависит от филиала — уточняйте перед записью.
+        </p>
+        <div class="page-hero-links">
+          <a href="results.html#quizzes" class="link-muted">Не знаете, что выбрать? Пройдите тест →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ПАНЕЛЬ ФИЛЬТРОВ И ПОИСКА -->
+    <section class="section catalog-section" aria-label="Каталог услуг">
+      <div class="container">
+        <div class="catalog-controls fuchsia-frame-thin">
+          <div class="catalog-search-row">
+            <div class="search-field-wrap">
+              <label for="serviceSearchInput" class="sr-only">Поиск по услугам</label>
+              <input
+                type="search"
+                id="serviceSearchInput"
+                class="form-input search-input"
+                placeholder="Поиск по услугам (например: LPG, сферы, лицо, эпиляция)..."
+              >
+            </div>
+
+            <div class="format-filter-group" role="group" aria-label="Формат посещения">
+              <button type="button" class="format-pill is-active" data-format-filter="all">Все форматы</button>
+              <button type="button" class="format-pill" data-format-filter="single">Разовые процедуры</button>
+              <button type="button" class="format-pill" data-format-filter="membership">Абонементы</button>
+            </div>
+          </div>
+
+          <div class="category-pills" id="categoryFilterBar" role="tablist" aria-label="Категории услуг">
+            <button type="button" class="cat-pill is-active" data-category-filter="all">Все направления</button>
+            <button type="button" class="cat-pill" data-category-filter="lpg">Аппаратный массаж / LPG</button>
+            <button type="button" class="cat-pill" data-category-filter="spheres">Массаж сферами</button>
+            <button type="button" class="cat-pill" data-category-filter="face">Процедуры для лица</button>
+            <button type="button" class="cat-pill" data-category-filter="laser">Аппаратная эпиляция</button>
+            <button type="button" class="cat-pill" data-category-filter="other">Другие аппаратные и уходовые</button>
+          </div>
+        </div>
+
+        <div class="price-control-panel" id="priceControlPanel">
+          <div class="price-control-group"><span class="price-control-label">Эпиляция</span><div class="audience-buttons" role="group" aria-label="Прайс для неё или для него"><button type="button" class="audience-btn is-active" data-audience="female" aria-pressed="true">Для неё</button><button type="button" class="audience-btn" data-audience="male" aria-pressed="false">Для него</button></div><small>Для мужчин в меню указана надбавка +20% к женскому прайсу на эпиляцию и шугаринг. Цена пересчитывается сразу.</small></div>
+          <div class="price-control-group"><span class="price-control-label">Выбор специалиста</span><label class="top-master-switch"><input type="checkbox" id="topMasterToggle"><span>Топ-мастер <b>+20%</b></span></label><small>Надбавка рассчитывается для процедур и курсов, где предусмотрен топ-мастер. Базовая цена будет зачёркнута.</small></div>
+        </div>
+        <p class="catalog-pricing-caveat">Стоимость взята из предоставленного фирменного меню BODYBAR и требует подтверждения перед записью. При выборе мужской эпиляции и топ-мастера цены рассчитываются автоматически в соответствующих карточках. Окончательные условия уточняйте у администратора.</p>
+        <div class="catalog-meta-bar">
+          <p class="catalog-count" id="catalogCountStatus" aria-live="polite">Загрузка позиций каталога...</p>
+          <button type="button" class="reset-filters-btn" id="resetCatalogFilters" hidden>Сбросить фильтры</button>
+        </div>
+
+        <!-- РАЗОВЫЕ ПРОЦЕДУРЫ -->
+        <div class="catalog-group-block" id="singleServicesBlock">
+          <div class="catalog-group-header">
+            <h2 class="catalog-group-title">Разовые процедуры и сеансы</h2>
+            <p class="catalog-group-sub">Подходят для первого знакомства с методикой или поддерживающего ухода</p>
+          </div>
+          <div class="services-catalog-grid" id="singleServicesGrid"></div>
+        </div>
+
+        <!-- АБОНЕМЕНТЫ И КУРСЫ -->
+        <div class="catalog-group-block" id="membershipServicesBlock">
+          <div class="catalog-group-header">
+            <h2 class="catalog-group-title">Абонементы и курсовые программы</h2>
+            <p class="catalog-group-sub">Точный состав пакетов и количество сеансов сверяются с актуальным прайсом выбранного филиала</p>
+          </div>
+          <div class="services-catalog-grid" id="membershipServicesGrid"></div>
+        </div>
+
+        <div class="catalog-empty-state" id="catalogEmptyState" hidden>
+          <h3 class="empty-title">По вашему запросу ничего не найдено</h3>
+          <p class="empty-text">Попробуйте изменить категорию или сбросить поисковый запрос.</p>
+          <button type="button" class="btn btn-outline" id="emptyResetBtn">Показать все услуги</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК ЗАПИСИ НА СТРАНИЦЕ УСЛУГ -->
+    <section class="section booking-section" id="booking" aria-labelledby="booking-title-services">
+      <div class="container">
+        <div class="booking-layout fuchsia-frame">
+          <div class="booking-info-col">
+            <span class="badge-fuchsia">Запись и уточнение стоимости</span>
+            <h2 id="booking-title-services" class="section-title">Записаться или уточнить прайс</h2>
+            <p class="booking-desc">
+              Выбранная вами в каталоге услуга автоматически подставляется в форму. Перейдите в систему записи или официальное сообщество BODYBAR для согласования визита.
+            </p>
+
+            <dl class="booking-contacts-list">
+              <div class="b-contact-item">
+                <dt>Выбранный филиал</dt>
+                <dd data-current-branch-name>Челябинск, ул. Кирова, 94а, 2 этаж</dd>
+              </div>
+              <div class="b-contact-item">
+                <dt>Общий телефон сети (из шапки ВК)</dt>
+                <dd>
+                  <a href="tel:+79026095233" class="phone-link">+7 (902) 609-52-33</a>
+                  <span class="contact-subnote">Прямой номер Кирова, 94а уточняется отдельно</span>
+                </dd>
+              </div>
+              <div class="b-contact-item">
+                <dt>Полный фотоальбом прайса ВК</dt>
+                <dd>
+                  <a href="https://vk.ru/album-211231479_283881978" target="_blank" rel="noopener noreferrer" class="link-fuchsia">
+                    Открыть альбом услуг ВК ↗
+                  </a>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <form class="booking-form" id="bookingForm" novalidate>
+            <div class="form-field">
+              <label for="bookingBranchSelect" class="form-label">1. Филиал студии</label>
+              <select id="bookingBranchSelect" name="branchId" class="form-select"></select>
+            </div>
+
+            <div class="form-field">
+              <label for="bookingServiceSelect" class="form-label">2. Выбранная услуга</label>
+              <select id="bookingServiceSelect" name="serviceName" class="form-select"></select>
+            </div>
+
+            <div class="form-field">
+              <label for="bookingFormatSelect" class="form-label">3. Формат обращения</label>
+              <select id="bookingFormatSelect" name="visitFormat" class="form-select">
+                <option value="Запись на разовый сеанс">Запись на разовый сеанс</option>
+                <option value="Уточнить стоимость и состав абонемента">Уточнить стоимость и состав абонемента</option>
+                <option value="Предварительная консультация">Предварительная консультация</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="bookingNote" class="form-label">4. Комментарий (необязательно)</label>
+              <input
+                type="text"
+                id="bookingNote"
+                name="note"
+                class="form-input"
+                placeholder="Желаемое время или вопрос по абонементу"
+              >
+            </div>
+
+            <div class="booking-preview-box" aria-live="polite">
+              <div class="preview-box-top">
+                <span class="preview-box-label">Сформированный запрос:</span>
+                <button type="button" class="copy-request-btn" id="copyRequestBtn">Скопировать текст</button>
+              </div>
+              <p class="preview-box-text" id="bookingSummaryText"></p>
+            </div>
+
+            <div class="booking-form-actions">
+              <button type="submit" class="btn btn-primary btn-full" id="bookingSubmitBtn">
+                Перейти к записи
+              </button>
+              <a
+                href="https://vk.ru/bodybar_74"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline btn-full"
+              >
+                Написать в сообщество ВК
+              </a>
+            </div>
+
+            <div class="booking-honest-notice" id="bookingActionFeedback" role="status" aria-live="polite" hidden></div>
+            <div class="booking-preview-cta"><strong>Как будет выглядеть онлайн-запись?</strong><p>Посмотрите интерфейс выбора даты и времени. После согласования можно подключить реальное расписание студии.</p><button type="button" class="btn btn-outline btn-sm" id="showBookingPreview">Посмотреть расписание</button></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand">
+          <img class="real-brand-logo" src="assets/bodybar-logo.png" alt="BodyBar">
+          <span class="brand-tag">НАЧАЛО ТВОЕГО ПРЕОБРАЖЕНИЯ</span>
+        </a>
+        <p class="footer-text">
+          Сеть студий аппаратного массажа и эпиляции (7 студий в Челябинске и 1 в Копейске). Студия: Челябинск, ул. Кирова, 94а, 2 этаж.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-heading">Разделы сайта</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Главная страница</a></li>
+          <li><a href="services.html">Услуги и цены</a></li>
+          <li><a href="results.html#quizzes">Подобрать уход</a></li>
+          <li><a href="results.html#before-after">Результаты ДО / ПОСЛЕ</a></li>
+          <li><a href="index.html#branches">Адреса филиалов</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-heading">Официальные ресурсы</h3>
+        <ul class="footer-links">
+          <li><a href="https://vk.ru/bodybar_74" target="_blank" rel="noopener noreferrer">Сообщество ВКонтакте ↗</a></li>
+          <li><a href="https://vk.ru/album-211231479_283881978" target="_blank" rel="noopener noreferrer">Альбом услуг и прайса ВК ↗</a></li>
+          <li><a href="https://vk.ru/album-211231479_284383808" target="_blank" rel="noopener noreferrer">Альбом результатов ВК ↗</a></li>
+          <li><a href="tel:+79026095233">Общий телефон сети: +7 (902) 609-52-33</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>Информация на сайте носит ознакомительный характер и не является медицинской услугой или публичной офертой.</p>
+    </div>
+  </footer>
+
+  <!-- МОДАЛЬНОЕ ОКНО ВЫБОРА ФИЛИАЛА -->
+  <div class="modal-overlay" id="branchModal" role="dialog" aria-modal="true" aria-labelledby="branchModalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close-branch-modal></div>
+    <div class="modal-card fuchsia-frame">
+      <div class="modal-header">
+        <div>
+          <span class="section-kicker">Сеть студий BODYBAR</span>
+          <h2 id="branchModalTitle" class="modal-title">Выберите филиал</h2>
+        </div>
+        <button type="button" class="modal-close-btn" data-close-branch-modal aria-label="Закрыть окно">✕</button>
+      </div>
+      <p class="modal-subtitle">
+        На странице показан подтверждённый адрес филиала Кирова, 94а. Адреса других филиалов можно уточнить в сообществе BODYBAR.
+      </p>
+      <div class="modal-branch-list" id="modalBranchList"></div>
+    </div>
+  </div>
+
+  <div class="mobile-bottom-bar" aria-label="Быстрая панель записи">
+    <div class="mobile-bottom-info">
+      <span class="mobile-bottom-brand">BodyBar</span>
+      <span class="mobile-bottom-branch" data-current-branch-short>Кирова, 94а</span>
+    </div>
+    <div class="mobile-bottom-btns">
+      <a href="results.html#quizzes" class="btn btn-outline btn-xs">Тест</a>
+      <a href="#booking" class="btn btn-primary btn-xs">Записаться</a>
+    </div>
+  </div>
+
+
+  <!-- ПОДРОБНОЕ ОПИСАНИЕ ПРОЦЕДУРЫ -->
+  <div class="modal-overlay detail-modal" id="serviceDetailModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="serviceDetailTitle">
+    <div class="modal-backdrop" data-close-service-modal></div>
+    <div class="modal-card detail-modal-card"><button type="button" class="modal-close-btn" data-close-service-modal aria-label="Закрыть описание услуги">✕</button><div id="serviceDetailBody"></div></div>
+  </div>
+  <!-- ПРЕДПРОСМОТР ВОЗМОЖНОЙ ИНТЕГРАЦИИ ЗАПИСИ -->
+  <div class="modal-overlay" id="bookingPreviewModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="bookingPreviewTitle">
+    <div class="modal-backdrop" data-close-booking-preview></div>
+    <div class="modal-card booking-preview-modal fuchsia-frame"><button type="button" class="modal-close-btn" data-close-booking-preview aria-label="Закрыть окно">✕</button>
+      <span class="section-kicker">Возможность интеграции</span><h2 id="bookingPreviewTitle" class="modal-title">Запись на удобное время</h2>
+      <p class="preview-help">Так может выглядеть подключённое расписание. Даты и время здесь условные, свободные места не проверяются и запись не создаётся.</p>
+      <h3>Выберите дату</h3><div class="preview-chip-list" id="bookingPreviewDays"></div><h3>Выберите время</h3><div class="preview-chip-list" id="bookingPreviewTimes"></div>
+      <p class="preview-confirmation" id="bookingPreviewSelection">Выберите дату и время для просмотра интерфейса.</p>
+      <a href="https://vk.ru/bodybar_74" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Уточнить настоящую запись в BODYBAR ↗</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
